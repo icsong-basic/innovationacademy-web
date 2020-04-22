@@ -1,0 +1,166 @@
+footer {
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 3.4rem 0;
+  height: $desktop-footer-height;
+  border-top: 1px solid #dddddd;
+
+  .footer-logo {
+    margin-bottom: 3.2rem;
+    width: 18rem;
+    height: 3.2rem;
+    object-fit: contain;
+    background: url("../images/logo-footer.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  /* IE10+ */
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .footer-logo {
+      background: url("../images/logo_footer.png");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+
+  .privacy-policy,
+  .contact {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 500;
+    letter-spacing: normal;
+    color: var(--black);
+  }
+
+  .copyright {
+    padding-left: 1.2rem;
+    margin-top: 0.6rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.55;
+    color: #bcbcbc;
+    background: url("../images/ic-copyright.png") no-repeat center left;
+    background-size: 1rem;
+  }
+
+  .contact-info {
+    margin-top: 0.6rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.55;
+    color: #bcbcbc;
+
+    a {
+      text-decoration: none;
+      color: #bcbcbc;
+    }
+  }
+
+  ul.navs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.14;
+    color: var(--black);
+
+    li {
+      width: 33.3%;
+      margin-bottom: 2.4rem;
+      display: block;
+      float: left;
+      a {
+        font-family: Roboto;
+        font-size: 1.4rem;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.14;
+        color: black;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .link-container {
+    position: relative;
+    top: -1.5rem;
+    display: flex;
+    flex-direction: column;
+    > .site-select {
+      width: 100%;
+      display: flex;
+      flex-flow: row;
+      margin-bottom: 2rem;
+      > div {
+        position: relative;
+        flex-grow: 1;
+        float: left;
+        width: 100%;
+
+        &:last-of-type {
+          margin-left: 2rem;
+        }
+
+        p {
+          font-size: 1.2rem;
+          line-height: 3.2rem;
+          color: var(--black);
+          border-bottom: 1px solid black;
+          cursor: pointer;
+
+          &.plus {
+            background: url("../images/ic-plus-s.svg") center right no-repeat;
+          }
+
+          &.minus {
+            background: url("../images/ic-minus-s.svg") center right no-repeat;
+          }
+        }
+
+        .menu {
+          margin: 0;
+          position: absolute;
+          right: 0;
+          bottom: calc(100% + 0.3rem);
+
+          padding: 0.8rem 0;
+          background-color: white;
+          width: 100%;
+          line-height: 2;
+          box-shadow: 0 0.3rem 1.2rem 0 rgba(0, 0, 0, 0.08);
+          border: solid 1px #c9caca;
+          margin-top: -6rem;
+          font-size: 1.2rem;
+          letter-spacing: -1px;
+          list-style: none;
+          transition: opacity 0.2s ease-in-out;
+
+          &.hidden {
+            display: none;
+          }
+
+          > li {
+            transition: all 0.2s ease-in-out;
+
+            &:hover {
+              background-color: #ededed;
+            }
+
+            a {
+              display: block;
+              position: relative;
+              padding: 0 1rem;
+              color: black;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@import "./Footer_responsive.scss";

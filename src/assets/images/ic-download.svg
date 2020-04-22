@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="_ic_download" width="24" height="24" data-name="ic_download" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#fff}
+        </style>
+    </defs>
+    <circle id="타원_1" cx="12" cy="12" r="12" data-name="타원 1"/>
+    <path id="패스_335" d="M-1556.238 260.007l3 3.126-3 2.874" class="cls-1" data-name="패스 335" transform="rotate(90 -645.516 920.523)"/>
+    <path id="패스_524" d="M-1252.709 11454.323v-6.254" class="cls-1" data-name="패스 524" transform="translate(1264.709 -11442.07)"/>
+    <path id="패스_525" d="M-1258.092 11457.453v3h10v-3" class="cls-1" data-name="패스 525" transform="translate(1265.092 -11444.336)"/>
+</svg>

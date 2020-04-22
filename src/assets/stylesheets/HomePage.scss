@@ -1,0 +1,86 @@
+.home-page {
+  position: relative;
+  height: calc(100vh - #{$desktop-footer-height});
+  min-height: 86rem;
+  .container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .background-container {
+    height: 100%;
+  }
+
+  .inner-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    .slogan {
+      font-size: 3.4rem;
+      font-weight: bold;
+      line-height: 1.59;
+      text-align: center;
+      color: black;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .button {
+      background-size: contain;
+      margin: 5.3rem auto 0;
+      width: 27.6rem;
+      height: 8.8rem;
+      object-fit: contain;
+      background: url("../images/button-main.svg");
+      color: white;
+      display: flex;
+      flex-flow: column;
+      justify-content: center;
+      cursor: pointer;
+
+      > p:first-of-type {
+        padding-left: 2rem;
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 1.5;
+      }
+
+      > p:nth-of-type(2) {
+        margin-top: 0.58rem;
+        padding-left: 2rem;
+        font-size: 1.4rem;
+        font-weight: normal;
+        line-height: 1.43;
+
+        > span {
+          vertical-align: middle;
+          float: left;
+        }
+        > i {
+          vertical-align: middle;
+          display: inline-block;
+          margin-left: 0.2rem;
+          width: 1.6rem;
+          height: 1.6rem;
+          background: url("../images/ic-arrow-next-white.svg") center no-repeat;
+          background-size: contain;
+        }
+      }
+    }
+  }
+
+  /* IE10+ */
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .animation {
+      height: 59.5rem;
+    }
+  }
+}
+
+@import "./HomePage_responsive.scss";

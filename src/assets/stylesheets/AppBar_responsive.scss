@@ -1,0 +1,64 @@
+@media (max-width: #{$mobile-width-number}px) {
+  #appbar {
+    width: 100%;
+    height: $mobile-appbar-height;
+    &.menu-opened {
+      background-color: #fff;
+      bottom: 0;
+      height: auto;
+      z-index: 9999;
+    }
+    > div {
+      &.menu-opened {
+        background-color: white;
+      }
+
+      .top {
+        display: flex;
+        height: $mobile-appbar-height;
+        align-items: center;
+        -webkit-justify-content: space-between;
+        justify-content: space-between;
+        .logo > img {
+          height: toMobile(41);
+        }
+        .menu-button {
+          width: toMobile(32);
+          height: toMobile(32);
+        }
+      }
+
+      .menu-items {
+        position: absolute;
+        bottom: toMobile(75);
+        left: toMobile(24);
+        .hexagon {
+          width: toMobile(32);
+          height: toMobile(32);
+          margin-bottom: toMobile(24);
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          li {
+            font-family: Roboto;
+            font-size: toMobile(32);
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.44;
+            margin-bottom: toMobile(2);
+            &:nth-last-of-type(1) {
+              margin-bottom: 0;
+            }
+            a {
+              text-decoration: none;
+              color: black;
+            }
+          }
+        }
+      }
+    }
+  }
+}

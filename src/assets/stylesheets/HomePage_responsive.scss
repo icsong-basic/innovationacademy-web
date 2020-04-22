@@ -1,0 +1,74 @@
+@media (max-width: #{$mobile-width-number}px) {
+  .home-page {
+    padding-top: $mobile-appbar-height;
+    height: toMobile(457);
+    min-height: auto;
+
+    .container {
+      margin: 0;
+      position: relative;
+      display: block;
+    }
+
+    .background-container {
+      height: toMobile(206);
+      margin-top: toMobile(118);
+    }
+
+    .inner-container {
+      position: absolute;
+      top: toMobile(128);
+      left: 0;
+      right: 0;
+      transform: none;
+
+      .slogan {
+        text-align: left;
+        font-size: toMobile(28);
+        line-height: 1.5;
+        &:nth-last-of-type(1) {
+          margin-top: toMobile(24);
+        }
+      }
+
+      .button {
+        box-sizing: border-box;
+        margin-top: toMobile(32);
+        margin-left: 0;
+        width: toMobile(200);
+        height: toMobile(64);
+        padding: toMobile(12) toMobile(16);
+        background-size: cover;
+        > p:first-of-type {
+          padding-left: 0;
+          font-size: toMobile(14);
+          font-weight: 500;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: 1.43;
+        }
+
+        > p:nth-of-type(2) {
+          padding-left: 0;
+          margin-top: toMobile(2);
+          font-size: toMobile(12);
+          span {
+            line-height: toMobile(20);
+          }
+          > i {
+            margin-left: toMobile(2);
+            width: toMobile(16);
+            height: toMobile(16);
+          }
+        }
+      }
+    }
+
+    /* IE10+ */
+    @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+      .animation {
+        height: toMobile(130);
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_hexagon_32px" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:#007ecf}
+        </style>
+    </defs>
+    <path id="사각형_3234" d="M0 0h32v32H0z" class="cls-1" data-name="사각형 3234"/>
+    <path id="패스_547" d="M335.329 239.791l8-13.857-8-13.856h-16l-8 13.856 8 13.857z" class="cls-2" data-name="패스 547" transform="translate(-311.329 -209.755)"/>
+</svg>

@@ -1,0 +1,124 @@
+@media (max-width: #{$mobile-width-number}px) {
+  .project-page {
+    padding-top: 0 !important;
+    section {
+      &.top {
+        height: 100vh;
+        padding-top: 0;
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .page-title {
+          margin-top: 30vh;
+          font-size: toMobile(40);
+          line-height: 1.15;
+          text-align: center;
+        }
+
+        .page-subtitle {
+          margin-top: toMobile(24);
+          margin-bottom: toMobile(70);
+          font-size: toMobile(15);
+          font-weight: 500;
+          line-height: 1.67;
+          text-align: center;
+        }
+      }
+      &.business {
+        padding-top: 76.38%;
+        margin-bottom: toMobile(130);
+
+        &._42seoul {
+          background-image: url("../images/img-mobile-business-42-seoul@2x.jpg");
+          background-size: contain;
+          background-position: center top;
+          background-repeat: no-repeat;
+        }
+
+        &._projectx {
+          background-image: url("../images/img-mobile-business-projectx@2x.jpg");
+          background-size: contain;
+          background-position: center top;
+          background-repeat: no-repeat;
+        }
+
+        &._software {
+          background-image: url("../images/img-mobile-business-software@2x.jpg");
+          background-size: contain;
+          background-position: center top;
+          background-repeat: no-repeat;
+
+          margin-bottom: toMobile(225);
+        }
+
+        .container {
+          flex-flow: column;
+          > * {
+            @extend .sm-5;
+            @extend .margin-left-sm-1;
+          }
+          .business-name {
+            width: auto;
+            h1 {
+              font-size: toMobile(32);
+              line-height: 1.56;
+              font-weight: 900;
+            }
+            p {
+              font-size: toMobile(15);
+              font-weight: bold;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: 1.47;
+              margin-top: toMobile(4);
+            }
+            .service-link {
+              box-sizing: border-box;
+              margin-top: toMobile(24);
+              height: toMobile(40);
+              padding: toMobile(10) 0;
+              width: toMobile(174);
+              font-size: toMobile(14);
+              font-weight: normal;
+              font-stretch: normal;
+              font-style: normal;
+              line-height: 1.43;
+              background-size: toMobile(20) toMobile(20);
+              background-position: calc(100% - #{toMobile(33)}) center;
+            }
+            .sns-links {
+              margin-top: toMobile(8);
+            }
+          }
+
+          .business-description {
+            h2 {
+              margin-top: toMobile(64);
+              font-size: toMobile(20);
+              line-height: 1.5;
+            }
+
+            p {
+              margin-top: toMobile(24);
+              font-size: toMobile(14);
+              font-weight: 500;
+              line-height: 1.64;
+            }
+          }
+        }
+      }
+    }
+
+    .arr-down {
+      margin: 0 auto toMobile(32);
+      display: block;
+      width: toMobile(44);
+      height: toMobile(44);
+      background: url("../images/ic_arrow_down_blue.svg");
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+}

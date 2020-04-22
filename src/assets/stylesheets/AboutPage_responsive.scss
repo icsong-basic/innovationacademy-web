@@ -1,0 +1,168 @@
+@media (max-width: #{$mobile-width-number}px) {
+  .about-page {
+    background: url("../images/img-mobile-about-banner@2x.jpg") no-repeat center top;
+    background-size: contain;
+    background-position: center #{$mobile-appbar-height};
+
+    > .container {
+      margin-top: toMobile(283);
+
+      > div:first-of-type {
+        flex-flow: column;
+      }
+      .page-tilte {
+        h1 {
+          font-size: toMobile(40);
+          font-weight: bold;
+          line-height: 1.15;
+        }
+
+        h2 {
+          font-size: toMobile(15);
+          margin-bottom: toMobile(112);
+        }
+      }
+
+      section {
+        margin-top: toMobile(120);
+        &.purpose {
+          margin-top: 0;
+          .section-title {
+            padding-bottom: toMobile(52);
+          }
+          h3:not(.section-title) {
+            font-size: toMobile(20);
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            @extend .margin-left-sm-1;
+          }
+
+          p {
+            font-weight: 500;
+          }
+          img {
+            margin-top: toMobile(40);
+          }
+        }
+
+        &.summary {
+          td {
+            display: block;
+            padding: 0 !important;
+            border: none;
+            font-size: toMobile(14);
+            margin-right: 0;
+          }
+        }
+
+        &.history {
+          margin-top: toMobile(103);
+          table {
+            border-top: 2px solid black;
+          }
+          td,
+          th {
+            display: block;
+            padding: 0;
+          }
+
+          th {
+            padding-top: toMobile(16);
+            padding-bottom: toMobile(8);
+            border-bottom: none;
+            font-size: toMobile(13);
+            line-height: 1;
+          }
+
+          td {
+            word-break: keep-all;
+            padding-bottom: toMobile(16);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+            font-size: toMobile(13);
+            font-weight: 500;
+            line-height: 1.69;
+          }
+        }
+
+        &.bi {
+          .bi-txt-container {
+            @extend .margin-left-sm-1;
+            flex-flow: column;
+            width: 71.111vw;
+            font-size: toMobile(14);
+            padding-bottom: toMobile(18);
+            > p {
+              flex: 0 0 auto;
+            }
+            .button-container {
+              margin-top: toMobile(20);
+              width: auto;
+              justify-content: space-between;
+
+              button {
+                margin-right: 0;
+                padding-right: toMobile(32);
+                font-size: toMobile(14);
+              }
+            }
+          }
+
+          .bi-img-container {
+            margin-top: toMobile(21);
+
+            > div {
+              margin-top: toMobile(32);
+              width: 100%;
+
+              > img {
+                width: 100%;
+              }
+            }
+          }
+        }
+
+        &.organization {
+          padding-bottom: toMobile(200);
+          margin-bottom: 0;
+          > img {
+            margin: 0;
+            width: 100%;
+          }
+        }
+
+        h3 {
+          font-size: toMobile(20);
+          font-weight: bold;
+          line-height: 1.5;
+          padding-bottom: toMobile(30);
+        }
+
+        .section-title {
+          font-size: toMobile(24);
+          padding-bottom: toMobile(32);
+          border-bottom: none;
+        }
+
+        p {
+          margin-top: 0;
+          font-size: toMobile(14);
+          line-height: 1.64;
+        }
+
+        > img,
+        > p,
+        > table,
+        .bi-img-container {
+          @extend .margin-left-sm-1;
+          @extend .sm-5;
+        }
+      }
+    }
+
+    .about-navigator {
+      display: none;
+    }
+  }
+}

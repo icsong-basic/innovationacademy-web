@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="sns_youtube_footer" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{clip-rule:evenodd}.cls-2{isolation:isolate}.cls-3{clip-path:url(#clip-path)}.cls-4{clip-path:url(#clip-path-2)}.cls-5{clip-path:url(#clip-path-3)}.cls-6{clip-path:url(#clip-path-4)}.cls-7{fill:none}
+        </style>
+        <clipPath id="clip-path">
+            <path id="패스_370" d="M14-40A14 14 0 0 0 0-26a14 14 0 0 0 14 14 14 14 0 0 0 14-14 14 14 0 0 0-14-14zm5.834 9.187a1.9 1.9 0 0 1 1.32 1.356 20.474 20.474 0 0 1 .312 3.691 20.474 20.474 0 0 1-.312 3.691 1.9 1.9 0 0 1-1.32 1.356A43.478 43.478 0 0 1 14-20.4a43.479 43.479 0 0 1-5.834-.32 1.9 1.9 0 0 1-1.32-1.356 20.482 20.482 0 0 1-.312-3.691 20.481 20.481 0 0 1 .312-3.691 1.9 1.9 0 0 1 1.32-1.356A43.472 43.472 0 0 1 14-31.133a43.471 43.471 0 0 1 5.834.32z" class="cls-1" data-name="패스 370" transform="translate(0 40)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="패스_369" d="M0-12h28v-28H0z" data-name="패스 369" transform="translate(0 40)"/>
+        </clipPath>
+        <clipPath id="clip-path-3">
+            <path id="패스_373" d="M18-18.262v-4.4l3.524 2.2z" data-name="패스 373" transform="translate(-18 22.667)"/>
+        </clipPath>
+        <clipPath id="clip-path-4">
+            <path id="패스_372" d="M0-13.571h26.429V-40H0z" data-name="패스 372" transform="translate(0 40)"/>
+        </clipPath>
+    </defs>
+    <g id="그룹_76" class="cls-2" data-name="그룹 76" transform="translate(2 2)">
+        <g id="그룹_72" class="cls-3" data-name="그룹 72">
+            <g id="그룹_71" class="cls-4" data-name="그룹 71">
+                <path id="패스_368" d="M-5-45h35v35H-5z" data-name="패스 368" transform="translate(1.5 41.5)"/>
+            </g>
+        </g>
+        <g id="그룹_74" class="cls-5" data-name="그룹 74" transform="translate(12.709 12.269)">
+            <g id="그룹_73" class="cls-6" data-name="그룹 73" transform="translate(-11.893 -11.452)">
+                <path id="패스_371" d="M13-27.667h10.131v11.012H13z" data-name="패스 371" transform="translate(-4.411 35.816)"/>
+            </g>
+        </g>
+    </g>
+    <path id="사각형_3205" d="M0 0h32v32H0z" class="cls-7" data-name="사각형 3205"/>
+</svg>

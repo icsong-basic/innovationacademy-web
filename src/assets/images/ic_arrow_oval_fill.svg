@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_arrow_oval_fill" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#fff}
+        </style>
+    </defs>
+    <circle id="타원_1" cx="12" cy="12" r="12" data-name="타원 1"/>
+    <path id="패스_335" d="M-1556.238 260.007l5.057 6.074-5.057 5.584" class="cls-1" data-name="패스 335" transform="translate(1566 -254)"/>
+</svg>

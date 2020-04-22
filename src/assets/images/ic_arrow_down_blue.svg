@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_arrow_down_blue" width="44" height="44" viewBox="0 0 44 44">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none}.cls-2{stroke:#009be8;stroke-width:2px}
+        </style>
+    </defs>
+    <path id="사각형_3211" d="M0 0h44v44H0z" class="cls-1" data-name="사각형 3211"/>
+    <path id="패스_540" d="M2556 9122l10 10 10-10" class="cls-2" data-name="패스 540" transform="translate(-2544 -9097)"/>
+    <path id="패스_541" d="M2566 9132v-26" class="cls-2" data-name="패스 541" transform="translate(-2544 -9097)"/>
+</svg>

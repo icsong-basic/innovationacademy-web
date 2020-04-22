@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="300" viewBox="0 0 256 300">
+    <defs>
+        <style>
+            .cls-1{fill:#fff}.cls-2{fill:#007ecf;font-size:14px;font-family:NotoSansKR-Bold,Noto Sans KR;font-weight:700}.cls-3,.cls-5{fill:none}.cls-3{stroke:#009be8;stroke-dasharray:3}.cls-10,.cls-4{fill:#009be8}.cls-4{opacity:.997}.cls-10,.cls-6,.cls-7,.cls-8,.cls-9{stroke:none}.cls-7{fill:rgba(0,155,232,.4)}.cls-8{fill:rgba(0,155,232,.6)}.cls-9{fill:rgba(0,155,232,.8)}
+        </style>
+    </defs>
+    <g id="img_mobile_about_vision" transform="translate(-80 -1229)">
+        <g id="패스_543" class="cls-1" data-name="패스 543">
+            <path d="M407.222 322.5l31.964-55.212-31.965-55.211h-63.928l-31.965 55.211 31.965 55.212z" class="cls-6" transform="translate(-231.329 1044.505)"/>
+            <path d="M406.53 321.3l31.27-54.011-31.27-54.011h-62.545l-31.27 54.01 31.27 54.013h62.545m.692 1.2h-63.93l-31.963-55.212 31.964-55.211h63.929l31.964 55.21-31.964 55.213z" class="cls-7" transform="translate(-231.329 1044.505)"/>
+        </g>
+        <g id="패스_543-2" class="cls-1" data-name="패스 543">
+            <path d="M407.222 322.5l31.964-55.212-31.965-55.211h-63.928l-31.965 55.211 31.965 55.212z" class="cls-6" transform="translate(-103.471 1044.505)"/>
+            <path d="M406.53 321.3l31.27-54.011-31.27-54.011h-62.545l-31.27 54.01 31.27 54.013h62.545m.692 1.2h-63.93l-31.963-55.212 31.964-55.211h63.929l31.964 55.21-31.964 55.213z" class="cls-8" transform="translate(-103.471 1044.505)"/>
+        </g>
+        <text id="도전" class="cls-2" transform="translate(143 1316)">
+            <tspan x="-12.88" y="0">도전</tspan>
+        </text>
+        <text id="혁신" class="cls-2" transform="translate(272 1316)">
+            <tspan x="-12.88" y="0">혁신</tspan>
+        </text>
+        <g id="패스_543-3" class="cls-1" data-name="패스 543">
+            <path d="M407.222 322.5l31.964-55.212-31.965-55.211h-63.928l-31.965 55.211 31.965 55.212z" class="cls-6" transform="translate(-231.044 1179.481)"/>
+            <path d="M406.53 321.3l31.27-54.011-31.27-54.011h-62.545l-31.27 54.01 31.27 54.013h62.545m.692 1.2h-63.93l-31.963-55.212 31.964-55.211h63.929l31.964 55.21-31.964 55.213z" class="cls-9" transform="translate(-231.044 1179.481)"/>
+        </g>
+        <g id="패스_543-4" class="cls-1" data-name="패스 543">
+            <path d="M406.876 321.9H343.64l-31.617-54.611 31.617-54.611h63.237l31.617 54.61-31.617 54.613z" class="cls-6" transform="translate(-103.186 1179.481)"/>
+            <path d="M406.53 321.3l31.27-54.011-31.27-54.011h-62.545l-31.27 54.01 31.27 54.013h62.545m.692 1.2h-63.93l-31.963-55.212 31.964-55.211h63.929l31.964 55.21-31.964 55.213z" class="cls-10" transform="translate(-103.186 1179.481)"/>
+        </g>
+        <text id="변화" class="cls-2" transform="translate(143 1452)">
+            <tspan x="-12.88" y="0">변화</tspan>
+        </text>
+        <text id="미래" class="cls-2" transform="translate(272 1452)">
+            <tspan x="-12.88" y="0">미래</tspan>
+        </text>
+        <path id="패스_656" d="M2108-7361.456s4.557-14.835 23.074-14.835h41.462" class="cls-3" data-name="패스 656" transform="translate(-1965 8617.625)"/>
+        <path id="패스_658" d="M2108-7376.291s4.557 14.835 23.074 14.835h41.462" class="cls-3" data-name="패스 658" transform="translate(-1965 8877.999)"/>
+        <path id="패스_657" d="M2172.536-7361.456s-4.557-14.835-23.074-14.835H2108" class="cls-3" data-name="패스 657" transform="translate(-1900.536 8617.625)"/>
+        <path id="패스_659" d="M2172.536-7376.291s-4.557 14.835-23.074 14.835H2108" class="cls-3" data-name="패스 659" transform="translate(-1900.536 8877.999)"/>
+        <circle id="타원_30" cx="3" cy="3" r="3" class="cls-4" data-name="타원 30" transform="translate(242 1238.708)"/>
+        <circle id="타원_31" cx="3" cy="3" r="3" class="cls-4" data-name="타원 31" transform="translate(192 1513.169)"/>
+        <path id="패스_660" d="M5784.732-7377.995s-20.956-1.028-37.08 5.3-27.417 20.024-27.417 20.024" class="cls-3" data-name="패스 660" transform="translate(-5545 8745)"/>
+        <path id="사각형_3295" d="M0 0h256v300H0z" class="cls-5" data-name="사각형 3295" transform="translate(80 1229)"/>
+    </g>
+</svg>

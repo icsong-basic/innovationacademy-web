@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_hexagon_16px" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <style>
+            .cls-1{fill:#009be8}.cls-2{fill:none}
+        </style>
+    </defs>
+    <path id="패스_543" d="M322.579 225.078l3.75-6.5-3.75-6.5h-7.5l-3.75 6.5 3.75 6.5z" class="cls-1" data-name="패스 543" transform="translate(-310.829 -210.578)"/>
+    <path id="사각형_3216" d="M0 0h16v16H0z" class="cls-2" data-name="사각형 3216"/>
+</svg>

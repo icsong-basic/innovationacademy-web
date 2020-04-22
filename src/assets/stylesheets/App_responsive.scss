@@ -1,0 +1,114 @@
+@media (max-width: #{$mobile-width-number}px) {
+  .page-top-padding {
+    padding-top: $mobile-appbar-height;
+  }
+
+  .sns-links {
+    &.large {
+      > a {
+        width: toMobile(32);
+        height: toMobile(32);
+        margin-right: toMobile(8);
+        background-size: contain;
+        &.youtube {
+          background-image: url("../images/sns_youtube_large.svg");
+        }
+        &.facebook {
+          background-image: url("../images/sns_facebook_large.svg");
+        }
+        &.github {
+          background-image: url("../images/sns_git_large.svg");
+        }
+        &:nth-last-of-type(1) {
+          margin-right: 0;
+        }
+      }
+    }
+    &.footer {
+      > a {
+        width: toMobile(32);
+        height: toMobile(32);
+        margin-right: toMobile(8);
+        background-size: contain;
+      }
+    }
+  }
+
+  .next-link {
+    margin-bottom: toMobile(120);
+    @extend .margin-left-sm-1;
+    p.title {
+      font-family: Roboto, sans-serif;
+      font-size: toMobile(30);
+    }
+
+    p.desc {
+      margin-top: toMobile(4);
+      margin-bottom: toMobile(20);
+      font-size: toMobile(14);
+    }
+
+    div.link {
+      margin-bottom: toMobile(22);
+      > img {
+        margin-right: toMobile(8);
+        &.arrow {
+          width: toMobile(44);
+          height: toMobile(44);
+        }
+        &.hexagon {
+          margin-top: toMobile(14);
+          width: toMobile(16);
+          height: toMobile(16);
+        }
+      }
+    }
+  }
+
+  .dim {
+    .popup {
+      width: toMobile(320);
+      font-size: toMobile(16);
+      > .content {
+        padding: toMobile(20);
+        max-height: calc(90vh - #{toMobile(60)});
+      }
+
+      > .close-btn {
+        cursor: pointer;
+        display: block;
+        width: 100%;
+        outline: none;
+        border: none;
+        font-size: toMobile(20);
+        padding: toMobile(10);
+        color: #fff;
+        background: #000;
+        line-height: 1;
+      }
+
+      .privacy-policy {
+        h2,
+        p {
+          margin-bottom: toMobile(10);
+          line-height: 1.4;
+        }
+        .list {
+          height: 1em;
+          width: toMobile(10);
+          &::before {
+            width: toMobile(3);
+            height: toMobile(3);
+          }
+          margin-right: toMobile(5);
+          &.depth-1 {
+            margin-left: 1rem;
+          }
+          &.depth-2 {
+            margin-left: 3rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="sns_facebooke_large" width="40" height="40" viewBox="0 0 40 40">
+    <defs>
+        <style>
+            .cls-1{fill:#aaabab}.cls-2{clip-path:url(#clip-path)}.cls-3{clip-path:url(#clip-path-2)}.cls-4{fill:none}
+        </style>
+        <clipPath id="clip-path">
+            <path id="패스_366" d="M101-22a18 18 0 0 0-18-18 18 18 0 0 0-18 18A18 18 0 0 0 80.188-4.218V-16.8h-4.57V-22h4.57v-3.966c0-4.511 2.686-7 6.8-7a27.684 27.684 0 0 1 4.029.352v4.43h-2.272a2.6 2.6 0 0 0-2.932 2.813V-22H90.8l-.8 5.2h-4.187v12.582A18 18 0 0 0 101-22z" class="cls-1" data-name="패스 366" transform="translate(-65 40)"/>
+        </clipPath>
+        <clipPath id="clip-path-2">
+            <path id="패스_365" d="M65-4h36v-36H65z" class="cls-1" data-name="패스 365" transform="translate(-65 40)"/>
+        </clipPath>
+    </defs>
+    <g id="그룹_67" class="cls-2" data-name="그룹 67" transform="translate(2.141 2)">
+        <g id="그룹_66" class="cls-3" data-name="그룹 66">
+            <path id="패스_364" d="M60-45h45V-.218H60z" class="cls-1" data-name="패스 364" transform="translate(-64.5 40.5)"/>
+        </g>
+    </g>
+    <path id="사각형_3206" d="M0 0h40v40H0z" class="cls-4" data-name="사각형 3206"/>
+</svg>

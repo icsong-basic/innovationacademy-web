@@ -1,0 +1,189 @@
+@media (max-width: #{$mobile-width-number}px) {
+  .notice-page {
+    > .container {
+      margin-top: toMobile(64);
+      .page-tilte {
+        margin-bottom: toMobile(74);
+        h1 {
+          font-size: toMobile(32);
+          line-height: 1.41;
+          margin-bottom: toMobile(14);
+        }
+        p {
+          margin-top: toMobile(14);
+          font-size: toMobile(14);
+          line-height: 1.64;
+        }
+      }
+    }
+
+    $board-selector-height: toMobile(36);
+    .board-selector {
+      position: relative;
+      margin-bottom: toMobile(20);
+      border-bottom: 1px solid #000;
+      font-size: toMobile(18);
+      line-height: 1.5;
+
+      .dropdown-icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        width: toMobile(28);
+        height: toMobile(28);
+      }
+
+      .current-selected {
+        height: $board-selector-height;
+      }
+      .menu {
+        box-sizing: border-box;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: white;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        .dropdown-icon {
+          transform: rotate(180deg);
+        }
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          li {
+            height: $board-selector-height;
+            &:nth-of-type(1) {
+              border-bottom: 1px solid rgba(0, 0, 0, 1);
+            }
+            &:nth-of-type(n + 2) {
+              padding: toMobile(5) 0;
+            }
+            a {
+              display: block;
+              color: #000;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+    }
+    .label-selector {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      font-size: toMobile(15);
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.47;
+      li {
+        margin-right: toMobile(16);
+        display: inline-block;
+        margin-bottom: 1rem;
+        &.active {
+          font-weight: bold;
+        }
+        a {
+          text-decoration: none;
+          color: #000;
+        }
+      }
+    }
+
+    #section-wrap {
+      min-height: toMobile(44);
+      padding-top: $board-selector-height;
+      margin-bottom: toMobile(205);
+    }
+
+    .board {
+      ul.posts {
+        margin: 0 0 toMobile(28);
+        li {
+          padding: toMobile(24) 0 toMobile(25);
+          background: none;
+          &:nth-of-type(n + 2) {
+            border-top: 1px solid rgba(0, 0, 0, 0.07);
+          }
+          &.empty {
+            font-size: toMobile(20);
+          }
+          .top {
+            font-size: toMobile(13);
+            line-height: 1.46;
+            margin-bottom: toMobile(8);
+            .date {
+              margin-right: 0;
+            }
+          }
+          .title {
+            font-size: toMobile(16);
+            line-height: 1.5;
+          }
+          &:not(.empty):hover {
+            background: none;
+            .title {
+              opacity: 1;
+            }
+            .top .date {
+              opacity: 0.4;
+            }
+          }
+        }
+      }
+    }
+
+    .paginate {
+      li {
+        float: left;
+        width: toMobile(28);
+        height: toMobile(28);
+
+        font-size: toMobile(14);
+        line-height: 1.43;
+        a {
+          line-height: toMobile(28);
+        }
+        &.previous,
+        &.next {
+          background-image: url("../images/button_arrow_previous.svg");
+          background-size: toMobile(28) toMobile(28);
+          background-position: center center;
+          background-repeat: no-repeat;
+        }
+        &.next {
+          background-image: url("../images/button_arrow_next.svg");
+        }
+      }
+    }
+
+    .post {
+      .top {
+        font-size: toMobile(15);
+        margin-bottom: 1rem;
+      }
+      .title {
+        font-size: toMobile(20);
+        margin-bottom: 1rem;
+      }
+      .author,
+      .writeAt {
+        font-size: toMobile(13);
+      }
+      .contents {
+        padding: toMobile(20) 0 toMobile(40);
+        font-size: toMobile(15);
+      }
+
+      .attachments {
+        font-size: toMobile(13);
+        margin-bottom: toMobile(10);
+      }
+    }
+
+    .next-link {
+      margin-left: 0;
+    }
+  }
+}

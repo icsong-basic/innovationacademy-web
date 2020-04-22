@@ -1,0 +1,77 @@
+@media (max-width: #{$mobile-width-number}px) {
+  .contact-page {
+    .side-container {
+      h2 {
+        font-size: toMobile(32);
+      }
+      p {
+        font-size: toMobile(15);
+        line-height: 1.47;
+        margin-top: toMobile(34);
+      }
+    }
+
+    .content-container {
+      margin-top: toMobile(16);
+      p {
+        font-size: toMobile(15);
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.47;
+      }
+      .address {
+        margin-top: toMobile(4);
+      }
+
+      .map-img {
+        margin: toMobile(24) 0 toMobile(102);
+      }
+
+      .newsletter-description {
+        font-size: toMobile(14);
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.64;
+      }
+
+      .arrow-down {
+        margin: toMobile(20) 0 toMobile(40);
+        width: toMobile(44);
+        height: toMobile(44);
+      }
+
+      .newsletter-form {
+        > div {
+          input {
+            font-size: toMobile(15);
+            padding: toMobile(8) 0;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.47;
+          }
+
+          button {
+            margin-top: toMobile(32);
+            padding: toMobile(13);
+            font-size: toMobile(15);
+            font-weight: 500;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.47;
+          }
+        }
+      }
+    }
+
+    > .container {
+      padding-top: toMobile(71);
+    }
+
+    .row {
+      flex-flow: column;
+    }
+  }
+}

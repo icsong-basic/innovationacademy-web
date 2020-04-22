@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="888" height="560" viewBox="0 0 888 560">
+    <defs>
+        <style>
+            .cls-1,.cls-2{fill:none}.cls-2{stroke:#c9caca}.cls-3,.cls-5{font-size:15px;font-family:NotoSansKR-Medium,Noto Sans KR;font-weight:500}.cls-4{fill:#009be8}.cls-5{fill:#fff}.cls-6{fill:#0060b4}.cls-7{stroke:none}
+        </style>
+    </defs>
+    <g id="img_about_team" transform="translate(-392 -3630)">
+        <path id="사각형_3291" d="M0 0h888v560H0z" class="cls-1" data-name="사각형 3291" transform="translate(392 3630)"/>
+        <path id="패스_567" d="M2444-4923v140" class="cls-2" data-name="패스 567" transform="translate(-1848 8891)"/>
+        <path id="패스_570" d="M2444-4923v140" class="cls-2" data-name="패스 570" transform="translate(-1368 8891)"/>
+        <g id="그룹_172" data-name="그룹 172">
+            <g id="사각형_3285" class="cls-2" data-name="사각형 3285">
+                <path d="M0 0h220v72H0z" class="cls-7" transform="translate(726 3642)"/>
+                <path d="M.5.5h219v71H.5z" class="cls-1" transform="translate(726 3642)"/>
+            </g>
+            <text id="이사회" class="cls-3" transform="translate(836 3684)">
+                <tspan x="-20.7" y="0">이사회</tspan>
+            </text>
+        </g>
+        <g id="그룹_170" data-name="그룹 170">
+            <path id="사각형_88" d="M0 0h220v72H0z" class="cls-4" data-name="사각형 88" transform="translate(486 3896)"/>
+            <text id="사무국장" class="cls-5" transform="translate(596 3938)">
+                <tspan x="-27.6" y="0">사무국장</tspan>
+            </text>
+        </g>
+        <g id="그룹_169" data-name="그룹 169" transform="translate(-8)">
+            <path id="사각형_89" d="M0 0h220v72H0z" class="cls-4" data-name="사각형 89" transform="translate(974 3896)"/>
+            <text id="교육부학장" class="cls-5" transform="translate(1084 3938)">
+                <tspan x="-34.5" y="0">교육부학장</tspan>
+            </text>
+        </g>
+        <g id="그룹_173" data-name="그룹 173" transform="translate(-22)">
+            <text id="감사" class="cls-3" transform="translate(1098 3684)">
+                <tspan x="-13.8" y="0">감사</tspan>
+            </text>
+            <g id="사각형_3286" class="cls-2" data-name="사각형 3286">
+                <path d="M0 0h220v72H0z" class="cls-7" transform="translate(988 3642)"/>
+                <path d="M.5.5h219v71H.5z" class="cls-1" transform="translate(988 3642)"/>
+            </g>
+        </g>
+        <g id="그룹_163" data-name="그룹 163" transform="translate(0 -12)">
+            <text id="경영_지원팀" class="cls-3" data-name="경영 지원팀" transform="translate(452 4162)">
+                <tspan x="-36.188" y="0">경영 지원팀</tspan>
+            </text>
+            <g id="사각형_91" class="cls-2" data-name="사각형 91">
+                <path d="M0 0h120v72H0z" class="cls-7" transform="translate(392 4120)"/>
+                <path d="M.5.5h119v71H.5z" class="cls-1" transform="translate(392 4120)"/>
+            </g>
+        </g>
+        <g id="그룹_164" data-name="그룹 164" transform="translate(-8 -12)">
+            <text id="대외_협력팀" class="cls-3" data-name="대외 협력팀" transform="translate(604 4162)">
+                <tspan x="-36.188" y="0">대외 협력팀</tspan>
+            </text>
+            <g id="사각형_92" class="cls-2" data-name="사각형 92">
+                <path d="M0 0h120v72H0z" class="cls-7" transform="translate(544 4120)"/>
+                <path d="M.5.5h119v71H.5z" class="cls-1" transform="translate(544 4120)"/>
+            </g>
+        </g>
+        <g id="그룹_165" data-name="그룹 165" transform="translate(-1 -12)">
+            <text id="시설_관리팀" class="cls-3" data-name="시설 관리팀" transform="translate(741 4162)">
+                <tspan x="-36.188" y="0">시설 관리팀</tspan>
+            </text>
+            <g id="사각형_3287" class="cls-2" data-name="사각형 3287">
+                <path d="M0 0h120v72H0z" class="cls-7" transform="translate(681 4120)"/>
+                <path d="M.5.5h119v71H.5z" class="cls-1" transform="translate(681 4120)"/>
+            </g>
+        </g>
+        <g id="그룹_166" data-name="그룹 166" transform="translate(-1 -12)">
+            <text id="멘토단" class="cls-3" transform="translate(933 4162)">
+                <tspan x="-20.7" y="0">멘토단</tspan>
+            </text>
+            <g id="사각형_93" class="cls-2" data-name="사각형 93">
+                <path d="M0 0h120v72H0z" class="cls-7" transform="translate(873 4120)"/>
+                <path d="M.5.5h119v71H.5z" class="cls-1" transform="translate(873 4120)"/>
+            </g>
+        </g>
+        <g id="그룹_167" data-name="그룹 167" transform="translate(0 -12)">
+            <text id="교육_기획팀" class="cls-3" data-name="교육 기획팀" transform="translate(1076 4162)">
+                <tspan x="-36.188" y="0">교육 기획팀</tspan>
+            </text>
+            <g id="사각형_94" class="cls-2" data-name="사각형 94">
+                <path d="M0 0h120v72H0z" class="cls-7" transform="translate(1016 4120)"/>
+                <path d="M.5.5h119v71H.5z" class="cls-1" transform="translate(1016 4120)"/>
+            </g>
+        </g>
+        <g id="그룹_168" data-name="그룹 168" transform="translate(0 -12)">
+            <text id="교육_운영팀" class="cls-3" data-name="교육 운영팀" transform="translate(1220 4162)">
+                <tspan x="-36.188" y="0">교육 운영팀</tspan>
+            </text>
+            <g id="사각형_95" class="cls-2" data-name="사각형 95">
+                <path d="M0 0h120v72H0z" class="cls-7" transform="translate(1160 4120)"/>
+                <path d="M.5.5h119v71H.5z" class="cls-1" transform="translate(1160 4120)"/>
+            </g>
+        </g>
+        <path id="패스_565" d="M2204-4849.258v-25h480v25" class="cls-2" data-name="패스 565" transform="translate(-1608 8745.258)"/>
+        <path id="패스_568" d="M2204-4814.259v-60h288v60" class="cls-2" data-name="패스 568" transform="translate(-1752 8922.258)"/>
+        <path id="패스_569" d="M2204-4814.259v-60h288v60" class="cls-2" data-name="패스 569" transform="translate(-1272 8922.258)"/>
+        <path id="패스_566" d="M2444-4923v157.344" class="cls-2" data-name="패스 566" transform="translate(-1608 8637)"/>
+        <g id="그룹_171" data-name="그룹 171">
+            <path id="사각형_87" d="M0 0h220v72H0z" class="cls-6" data-name="사각형 87" transform="translate(726 3750)"/>
+            <text id="학장" class="cls-5" transform="translate(836 3792)">
+                <tspan x="-13.8" y="0">학장</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

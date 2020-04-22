@@ -1,0 +1,79 @@
+html,
+body {
+  // destop 일때 min-width 설정
+  @media (min-width: #{$mobile-width-number + 1}px) {
+    min-width: 1234px;
+  }
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  @media (max-width: #{$mobile-width-number}px) {
+    max-width: toMobile(360);
+    padding-left: toMobile(24);
+    padding-right: toMobile(24);
+  }
+
+  @media (min-width: #{$mobile-width-number + 1}px) {
+    width: 123.4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@for $i from 1 through 12 {
+  @media (min-width: #{$mobile-width-number + 1}px) {
+    .md-#{$i} {
+      width: 10.2rem * $i - 3rem;
+    }
+    .margin-left-md-#{$i} {
+      margin-left: 10.2rem * $i;
+    }
+    .margin-right-md-#{$i} {
+      margin-right: 10.2rem * $i;
+    }
+  }
+}
+@for $i from 1 through 6 {
+  @media (max-width: #{$mobile-width-number}px) {
+    .sm-#{$i} {
+      width: toMobile(56 * $i - 24);
+    }
+    .margin-left-sm-#{$i} {
+      margin-left: toMobile(56 * $i);
+    }
+    .margin-right-sm-#{$i} {
+      margin-right: toMobile(56 * $i);
+    }
+  }
+}
+
+.row {
+  display: flex;
+  > .col {
+    flex: 0 0;
+
+    @media (min-width: #{$mobile-width-number + 1}px) {
+      margin-right: 3rem;
+      @for $i from 1 through 12 {
+        &.md-#{$i} {
+          flex: 0 0 (10.2rem * $i - 3rem);
+        }
+      }
+    }
+    @media (max-width: #{$mobile-width-number}px) {
+      margin-right: toMobile(24);
+      @for $i from 1 through 6 {
+        &.sm-#{$i} {
+          flex: 0 0 #{toMobile(56 * $i - 24)};
+        }
+      }
+    }
+
+    &:nth-last-of-type(1) {
+      margin-right: 0;
+    }
+  }
+}

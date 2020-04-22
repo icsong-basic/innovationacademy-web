@@ -1,0 +1,15 @@
+@function toMobile($size) {
+  @return #{$size * 100 / 360}vw;
+}
+
+$mobile-width-number: 768;
+$mobile-width: #{$mobile-width-number}px;
+
+$desktop-appbar-height: 10.4rem;
+$mobile-appbar-height: toMobile(56);
+
+$desktop-footer-height: 22rem;
+$mobile-footer-height: toMobile(324);
+
+$skyblue: #009be8;
+$darkblue: rgb(0, 111, 193);

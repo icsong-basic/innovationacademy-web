@@ -1,0 +1,101 @@
+@media (max-width: #{$mobile-width-number}px) {
+  .news-page {
+    .page-tilte h1 {
+      font-size: toMobile(22);
+      font-weight: bold;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.55;
+      letter-spacing: normal;
+      margin: toMobile(64) 0 toMobile(124);
+    }
+
+    section.stories,
+    section.news {
+      p {
+        &.title {
+          display: -webkit-box;
+          font-size: toMobile(20);
+          line-height: 1.4;
+          letter-spacing: -0.063px;
+          margin: 0 0 1.4rem;
+          max-height: toMobile(56);
+
+          text-overflow: ellipsis;
+          overflow: hidden;
+          -webkit-line-clamp: 2; /* 라인수 */
+          -webkit-box-orient: vertical;
+          word-wrap: break-word;
+          white-space: normal;
+        }
+        &.desc {
+          display: -webkit-box;
+          font-size: toMobile(12);
+          line-height: 1.67;
+          height: toMobile(40);
+          margin: 0;
+        }
+      }
+    }
+
+    section.stories.row {
+      display: block;
+      .story {
+        padding: 0;
+        margin: 0 0 toMobile(64);
+        height: toMobile(285);
+        overflow: hidden;
+        img {
+          width: 100%;
+          height: toMobile(170);
+          object-fit: cover;
+        }
+        > a > div {
+          left: 0;
+          right: 0;
+          top: toMobile(190);
+        }
+      }
+    }
+    section.news {
+      .grid {
+        margin-bottom: toMobile(200);
+        > div {
+          display: block;
+          position: relative;
+          width: 100%;
+          margin-top: toMobile(64);
+          margin-right: 0;
+          overflow: hidden;
+
+          &:nth-child(1) {
+            margin-top: 0;
+          }
+          &:nth-child(3n + 3) {
+            margin-right: 0;
+          }
+          &:nth-child(n + 4) {
+            margin-top: toMobile(44);
+          }
+          a {
+            text-decoration: none;
+            div.img {
+              width: 100%;
+              height: toMobile(170);
+              border: solid 1px #3e3e3e;
+              background-position: center;
+              background-size: cover;
+              margin-bottom: toMobile(12);
+            }
+            p.desc {
+              margin: 0 0 toMobile(12);
+            }
+            span.from {
+              font-size: toMobile(14);
+            }
+          }
+        }
+      }
+    }
+  }
+}

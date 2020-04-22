@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="ic_menu" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{fill:none}
+        </style>
+    </defs>
+    <path id="사각형_3173" d="M0 0h32v32H0z" class="cls-1" data-name="사각형 3173"/>
+    <path id="사각형_3174" d="M0 0h20v2H0z" data-name="사각형 3174" transform="translate(6 15)"/>
+    <path id="사각형_3323" d="M0 0h20v2H0z" data-name="사각형 3323" transform="translate(6 8)"/>
+    <path id="사각형_3175" d="M0 0h20v2H0z" data-name="사각형 3175" transform="translate(6 22)"/>
+</svg>

@@ -1,0 +1,194 @@
+.about-page {
+  position: relative;
+  background: url("../images/img-about-banner@2x.jpg") no-repeat center top;
+  background-size: 192rem 35rem;
+  background-position: center #{$desktop-appbar-height};
+
+  > .container {
+    margin-top: 27.7rem;
+    .page-tilte {
+      h1 {
+        font-family: Roboto, serif-serif;
+        font-size: 8rem;
+        font-weight: bold;
+        line-height: 9.4rem;
+      }
+      h2 {
+        font-family: Noto Sans KR, sans-serif;
+        font-size: 2.2rem;
+        font-weight: bold;
+        line-height: 1.36;
+        margin-bottom: 13.3rem;
+      }
+    }
+  }
+
+  .about-navigator {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    will-change: top;
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 2.27;
+
+    > a {
+      color: rgba(0, 0, 0, 0.24);
+      transition: color 0.2s ease-in-out;
+      text-decoration: none;
+
+      &.selected,
+      &:hover {
+        color: black;
+        padding-right: 2.2rem;
+        background: url("../images/ic-hexagon-16-px.svg") no-repeat right center;
+        background-size: 1.6rem;
+      }
+    }
+  }
+
+  section {
+    position: relative;
+    margin-top: 22rem;
+
+    &.purpose {
+      margin-top: 0;
+    }
+
+    &.summary {
+      margin-top: 18rem;
+
+      table td {
+        margin-right: 5.5rem;
+      }
+    }
+
+    &.organization {
+      margin-bottom: 24rem;
+    }
+
+    h3 {
+      font-size: 3.4rem;
+      font-weight: bold;
+      line-height: 1.47;
+    }
+
+    .section-title {
+      font-size: 1.6rem;
+      font-weight: bold;
+      line-height: 1.5;
+      padding-bottom: 1.2rem;
+      border-bottom: 2px solid black;
+    }
+
+    p {
+      margin-top: 3.7rem;
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 1.88;
+      word-break: keep-all;
+
+      @media screen and (min-width: 0\0) {
+        font-size: 1.5rem;
+      }
+    }
+
+    table {
+      width: 100%;
+      border: none;
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 1.88;
+      border-collapse: collapse;
+
+      th,
+      td {
+        padding-top: 2.4rem;
+        padding-bottom: 2.4rem;
+        text-align: left;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+      }
+      &.no-border-bottom {
+        th,
+        td {
+          border-bottom: none;
+        }
+      }
+
+      th {
+        width: 20.4rem;
+        vertical-align: top;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .bi-txt-container {
+    display: flex;
+    flex-flow: row;
+    padding-bottom: 2.4rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+    > p {
+      flex: 1;
+    }
+
+    .button-container {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+
+      button {
+        margin-right: 4.6rem;
+        border: none;
+        outline: none;
+        font-size: 1.5rem;
+        line-height: 1.47;
+        padding-left: 0;
+        padding-right: 3.2rem;
+        background: url("../images/ic-download.svg");
+        background-repeat: no-repeat;
+        background-position-x: calc(100% - 1px);
+        background-size: contain;
+        @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+          background: url("../images/ic_download@2x.png");
+          background-repeat: no-repeat;
+          background-position-x: calc(100% - 1px);
+          background-size: contain;
+        }
+        cursor: pointer;
+      }
+      a:last-of-type {
+        button {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+  .bi-img-container {
+    position: relative;
+    overflow: hidden;
+
+    > div {
+      width: 37.8rem;
+
+      &:first-of-type {
+        float: left;
+      }
+
+      &:last-of-type {
+        float: right;
+      }
+
+      p {
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.43;
+        color: #aaabab;
+        margin-bottom: 2.4rem;
+      }
+    }
+  }
+}
+
+@import "./AboutPage_responsive.scss";

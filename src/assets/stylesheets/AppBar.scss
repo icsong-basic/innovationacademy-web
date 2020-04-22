@@ -1,0 +1,134 @@
+#appbar {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  will-change: background-color;
+  transition: background-color 0.3s;
+  &:not(.top) {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  &.white-bg {
+    background-color: rgb(255, 255, 255) !important;
+  }
+
+  @media (min-width: #{$mobile-width-number + 1}px) {
+    height: $desktop-appbar-height;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.083);
+    .gnb {
+      position: relative;
+      .logo {
+        position: absolute;
+        top: 3.2rem;
+        left: 2rem;
+      }
+      .nav-item {
+        box-sizing: border-box;
+        position: relative;
+        font-family: Roboto;
+        font-size: 1.6rem;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.19;
+        letter-spacing: normal;
+        color: #000;
+        text-decoration: none;
+        padding: 1rem 0;
+        .underline {
+          position: absolute;
+          opacity: 0;
+          top: 3.4rem;
+          left: 0;
+          width: 100%;
+          height: 0.3rem;
+          background-color: #009be8;
+        }
+        &.active {
+          .underline {
+            opacity: 1;
+          }
+        }
+      }
+      ul {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 6.5rem 0 0;
+        display: block;
+        list-style: none;
+        text-align: center;
+        li {
+          display: inline-block;
+          width: auto;
+          margin-right: 7.3rem;
+          &:nth-last-of-type(1) {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+    .lnb {
+      position: fixed;
+      left: 0;
+      width: 100%;
+      top: $desktop-appbar-height;
+      background-color: #007ecf;
+      > .container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        .lnb-item {
+          box-sizing: border-box;
+          flex: 0 0 17.6rem;
+          display: inline-block;
+          width: 17.4;
+          height: 25rem;
+          border-right: 1px solid rgba(255, 255, 255, 0.1);
+          &:nth-of-type(1) {
+            border-left: 1px solid rgba(255, 255, 255, 0.1);
+          }
+          padding: 3.8rem 2.7rem 0;
+          p {
+            font-size: 1.4rem;
+            color: #ffffff;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 2rem;
+            white-space: nowrap;
+          }
+          ul {
+            padding: 0;
+            margin: 2rem 0 0;
+            list-style: none;
+            li {
+              padding: 0.5rem 0;
+              a {
+                opacity: 0.4;
+                text-decoration: none;
+                &:hover,
+                &.active {
+                  opacity: 1;
+                  text-decoration: underline;
+                }
+                color: #ffffff;
+                font-size: 1.4rem;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.43;
+              }
+            }
+          }
+
+          &:hover {
+            background-color: rgba(0, 96, 180, 0.5);
+          }
+        }
+      }
+    }
+  }
+}
+
+@import "./AppBar_responsive.scss";

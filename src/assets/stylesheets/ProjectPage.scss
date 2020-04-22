@@ -1,0 +1,106 @@
+.project-page {
+  section {
+    position: relative;
+    &.top {
+      margin-top: 11.1rem;
+      .page-title {
+        display: block;
+        font-family: "Roboto", sans-serif;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.18;
+        letter-spacing: normal;
+      }
+      .page-subtitle {
+        margin-top: 4.2rem;
+        margin-bottom: 8.9rem;
+      }
+    }
+    &.business {
+      padding-top: 48.8rem;
+      margin-bottom: 20rem;
+      background-size: auto 55.4rem;
+      &._42seoul {
+        background-image: url("../images/img_business_42seoul@2x.jpg");
+        background-position: center top;
+        background-repeat: no-repeat;
+      }
+
+      &._projectx {
+        background-image: url("../images/img_business_projectx@2x.jpg");
+        background-position: center top;
+        background-repeat: no-repeat;
+      }
+
+      &._software {
+        background-image: url("../images/img_business_software@2x.jpg");
+        background-position: center top;
+        background-repeat: no-repeat;
+      }
+
+      > .container {
+        display: flex;
+        > .business-name {
+          width: 40.4rem;
+          h1 {
+            font-size: 4.2rem;
+            font-weight: 900;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.19;
+            letter-spacing: normal;
+          }
+
+          p {
+            font-size: 1.5rem;
+            font-weight: bold;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.47;
+          }
+          .service-link {
+            margin-top: 4.4rem;
+            width: 17.4rem;
+            display: inline-block;
+            font-size: 1.6rem;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: 1.5;
+            letter-spacing: normal;
+            text-align: left;
+            color: #000;
+            text-decoration: none;
+            padding: 1.1rem 0 1.3rem;
+            background-image: url("../images/ic_arrow_oval_fill@2x.png");
+            background-size: 2.4rem 2.4rem;
+            background-repeat: no-repeat;
+            background-position: 14.5rem center;
+          }
+          .sns-links {
+            margin-top: 1.4rem;
+          }
+        }
+        > .business-description {
+          flex: 1;
+
+          h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            line-height: 1.48;
+          }
+
+          p {
+            margin-top: 3.2rem;
+            font-size: 1.6rem;
+            font-weight: 500;
+            line-height: 1.63;
+          }
+        }
+      }
+    }
+  }
+}
+
+@import "./ProjectPage_responsive.scss";
