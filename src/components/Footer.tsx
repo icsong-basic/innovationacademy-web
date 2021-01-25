@@ -55,14 +55,9 @@ export default function Footer({}: Props) {
           <div className="only-mobile">
             <div className="row">
               <div className="col sm-6">
-                <p
-                  className="privacy-policy"
-                  onClick={() => {
-                    setOpenPrivacyPolicy(true);
-                  }}
-                >
+                <a className="privacy-policy" href="https://innovationacademy.kr/notice/4?board=4&post=129">
                   개인정보처리방침
-                </p>
+                </a>
                 <p className="copyright">
                   2019 Innovation Academy.<span className="only-pc"> All Rights reserved.</span>
                 </p>
