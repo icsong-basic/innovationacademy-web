@@ -13,6 +13,9 @@ import Anchor from "../components/Anchor";
 import utils from "../utils";
 import LeftSideNavigator from "../components/LeftSideNavigator";
 
+import ImgArrow from "../assets/images/ic-arrow-large.svg";
+import ImgHex from "../assets/images/ic-hexagon-16-px.svg";
+
 interface Props {}
 
 export default function AboutPage({}: Props) {
@@ -239,6 +242,16 @@ export default function AboutPage({}: Props) {
               <img src={ImgTeamMobile} className="only-mobile" />
             </section>
           </div>
+        </div>
+        <div>
+          <a href="https://whitepaper.innovationacademy.kr/" className="next-link project-link only-mobile" id="whitepaper-link" style={{ display: "block" }}>
+            <p className="title">백서</p>
+            <p className="desc"></p>
+            <div className="link">
+              <img className="arrow" src={ImgArrow} />
+              <img className="hexagon" src={ImgHex} />
+            </div>
+          </a>
         </div>
         <NextLink id="project-link" className="project-link" title="Project" description={"이노베이션 아카데미 진행 프로젝트"} link={"/project"} />
       </div>
