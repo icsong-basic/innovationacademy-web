@@ -244,7 +244,13 @@ export default function AboutPage({}: Props) {
           </div>
         </div>
         <div>
-          <a href="https://whitepaper.innovationacademy.kr/" className="next-link project-link only-mobile" id="whitepaper-link" style={{ display: "block" }}>
+          <a
+            href="https://whitepaper.innovationacademy.kr/"
+            target="_blank"
+            className="next-link project-link only-mobile"
+            id="whitepaper-link"
+            style={{ display: "block" }}
+          >
             <p className="title">백서</p>
             <p className="desc"></p>
             <div className="link">
