@@ -240,6 +240,16 @@ export default function AboutPage({}: Props) {
             </section>
           </div>
         </div>
+        <div>
+          <a href="/project" className="next-link project-link only-mobile" id="whitepaper-link" style={{ display: "block" }}>
+            <p className="title">백서</p>
+            <p className="desc"></p>
+            <div className="link">
+              <img className="arrow" src="/static/media/ic-arrow-large.a26d8314.svg" />
+              <img className="hexagon" src="/static/media/ic-hexagon-16-px.161dd8d8.svg" />
+            </div>
+          </a>
+        </div>
         <NextLink id="project-link" className="project-link" title="Project" description={"이노베이션 아카데미 진행 프로젝트"} link={"/project"} />
       </div>
     </div>
