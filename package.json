@@ -19,7 +19,7 @@
     "lottie-react-web": "^2.1.4",
     "mobx": "4",
     "mobx-react": "6.1.4",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "node-sass": "^4.13.0",
     "query-string": "5",
     "react": "^16.12.0",
